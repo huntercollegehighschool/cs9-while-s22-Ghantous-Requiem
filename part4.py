@@ -12,20 +12,12 @@ Enter a number or enter 0 to stop: 0
 Product: 60
 
 '''
-# not final yet; it doesn't work
-
-numbers = [] 
-product = 1
 num = int(input("Enter a number or enter 0 to stop: "))
+product = 1
 
-if num != 0:
-  numbers.append(num)
-  
 while num != 0:
-  for num in numbers:
-    product = product * num
+  product = product * num
   num = int(input("Enter a number or enter 0 to stop: "))
-
-
+  
 
 print("Product:", product)
