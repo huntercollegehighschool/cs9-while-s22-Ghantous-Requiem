@@ -11,3 +11,9 @@ Hunter
 Hunter
 
 '''
+
+gq = int(input("Times to print: "))
+
+while gq > 0:
+  print("Hunter\n"*gq)
+  gq = 0
